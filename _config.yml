@@ -1,0 +1,6 @@
+safe: false # A hack as environment variable (https://github.com/plusjade/jekyll-bootstrap/issues/84)
+auto: true
+server: true
+permalink: none
+pygments: true
+exclude: [node_modules, components, Readme.md, package.json, Makefile, component.json]

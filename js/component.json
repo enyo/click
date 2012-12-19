@@ -1,0 +1,10 @@
+{
+  "name": "boot",
+  "description": "Opentip website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "component/jquery": "*"
+  },
+  "scripts": [ "index.js" ]
+}

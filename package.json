@@ -1,0 +1,19 @@
+{
+  "name": "click-website",
+  "version": "0.0.1",
+  "private": "yes",
+  "maintainers": [{
+    "name": "Matias Meno",
+    "email": "m@tias.me",
+    "web": "http://www.matiasmeno.com"
+  }],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*",
+    "component": "*",
+    "coffee-script": "*"
+  }
+}
