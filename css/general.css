@@ -4,3 +4,34 @@ ol,ul{list-style:none}
 table{border-collapse:separate;border-spacing:0;vertical-align:middle}
 caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
 a img{border:none}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{margin:0;padding:0;border:0;outline:0;display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]),[hidden]{display:none}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+html,body{height:100%}
+body{background:#fafafa;font-family:"Open sans",arial,sans-serif;font-size:15px;color:#777;line-height:180%}
+a{color:inherit}
+p{margin:30px 0}
+h1,h2,h3{margin:70px 0 70px 0}
+h1{font-size:2.5em}
+h2{font-size:2em}
+h3{font-size:1.5em}
+.click{color:#dc1e19}
+header{margin:40px auto;width:960px;}
+header h1#logo{width:210px;height:155px;margin:0 auto 80px auto;padding:0;background:url("../images/logo.png") no-repeat top left;}
+header h1#logo span{display:none}
+#main{margin:40px 0 40px 0;text-align:center;}
+#main section.dark,#main section.light{border-top:1px solid #e0e0e0;padding:80px 0;}
+#main section.dark h1:first-of-type,#main section.light h1:first-of-type{margin-top:0}
+#main section.dark{background:#f0f0f0}
+#main section.light{background:#fafafa}
+#main section:last-of-type{padding-bottom:150px}
+#main #intro h2.tagline{width:720px;height:130px;margin:0 auto 100px auto;background:url("../images/tagline.png") no-repeat top left;position:relative;}
+#main #intro h2.tagline span{display:none}
+#main #intro h2.tagline:after{content:"";width:48px;height:70px;background:url("../images/arrow.png") no-repeat top left;display:block;position:absolute;bottom:-70px;left:50%;margin-left:-24px}
+#main #intro p{border-top:1px solid #eee;padding-top:10px;margin-left:auto;margin-right:auto;margin-bottom:80px;text-align:justify;width:550px}
+footer{background:#2c2c2c;position:fixed;bottom:0;left:0;right:0;height:40px;line-height:40px;text-align:center;color:#eee;}
+footer a{text-decoration:none}
+footer > div{display:inline-block;}
+footer > div:after{margin:0 10px;content:" | ";color:#d6d6d6}
+footer > div:last-of-type:after{content:"";margin:0}

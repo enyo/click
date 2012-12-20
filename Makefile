@@ -8,9 +8,9 @@ watchcss:
 	$(stylus) -I node_modules/nib/lib -c -w -o css _css
 
 html:
-	$(jade) -O . _jade/*.jade
+	$(jade) -O . _html/*.jade
 
 watchhtml:
-	$(jade) -w -O . _jade/*.jade
+	$(jade) -w -O . _html/*.jade
 
 .PHONY: css html
